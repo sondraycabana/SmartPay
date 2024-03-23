@@ -1,0 +1,62 @@
+name: SmartPay
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.5
+  internet_connection_checker:
+  bot_toast:
+  get_storage:
+  responsive_builder:
+  flutter_svg:
+  font_awesome_flutter:
+  pinput:
+  flutter_spinkit: ^5.1.0
+  dio:
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.11.0"
+
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/logo.png"
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/svgs/flags/
+    - assets/images/svgs/
+    - assets/images/jpgs/
+    - assets/images/
+
+  fonts:
+    - family: SF-Pro-Display
+      fonts:
+        - asset: fonts/sf_pro_display/SF-Pro-Display-Black.otf
+        - asset: fonts/sf_pro_display/SF-Pro-Display-Bold.otf
+        - asset: fonts/sf_pro_display/SF-Pro-Display-Heavy.otf
+        - asset: fonts/sf_pro_display/SF-Pro-Display-Light.otf
+        - asset: fonts/sf_pro_display/SF-Pro-Display-Medium.otf
+        - asset: fonts/sf_pro_display/SF-Pro-Display-Regular.otf
+        - asset: fonts/sf_pro_display/SF-Pro-Display-Semibold.otf
+        - asset: fonts/sf_pro_display/SF-Pro-Display-Thin.otf
+
+
